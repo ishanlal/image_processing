@@ -16,3 +16,7 @@
 * > npm run lint
 * > npm run test (this command runs both build and jasmine test suite one after another)
 * > npm run start
+* > Open a web browser and type URL (sample): `localhost:3000/convert/?filename=fjord&width=200&height=200`
+* > Choose resized image height and width to your preferences and insert in above URL.
+* > Choose filename for above URL from list of image files available under the images folder.
+* > Logger will print the input URL and access date/time info in console window.
