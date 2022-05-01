@@ -14,7 +14,7 @@
 
 * > npm run prettier
 * > npm run lint
-* > npm run test (this command runs both build and jasmine test suite one after another)
+* > npm run test (this command runs both npm run build and npm run jasmine, one after another)
 * > npm run start
 * > Open a web browser and type URL (sample): `localhost:3000/convert/?filename=fjord&width=200&height=200`
 * > Choose resized image height and width to your preferences and insert in above URL.
