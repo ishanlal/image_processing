@@ -1,8 +1,7 @@
 import supertest from 'supertest';
-import { app, resize } from '../index';
+import app from '../index';
 
 const request = supertest(app);
-const resize_ = supertest(resize);
 
 describe('Test endpoint responses', () => {
   it('gets the image conversion endpoint with correct query', async () => {
