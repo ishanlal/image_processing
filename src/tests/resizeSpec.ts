@@ -1,7 +1,4 @@
-import supertest from 'supertest';
 import resize from '../resize';
-
-const request = supertest(resize);
 
 describe('Resizing test...', () => {
   it('test image transforming function with correct inputs', async () => {

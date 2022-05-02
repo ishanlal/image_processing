@@ -4,7 +4,7 @@
   "description": "image resizing api",
   "main": "index.ts",
   "scripts": {
-    "lint": "eslint 'src/index.ts'",
+    "lint": "eslint 'src/**/*.ts'",
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "build": "npx tsc",
     "jasmine": "jasmine",
